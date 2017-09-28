@@ -8,15 +8,48 @@ html{
   background-size:cover;
 }
 
+.designheader {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size:cover;
+}
+
 .pagetitle {
   font-size: 70px;
-  font-weight: bold;
-  color: white;
-  opacity: 1;
 }
 
 .pagelink {
   font-size: 18px;
   color: white;
   opacity: 1;
+}
+
+.designtitle {
+  font-size: 23px;
+}
+
+.titleformat {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+};
+
+.itemtitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.itemname{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.itemtext{
+  font-size: 14px;
+}
+
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  text-align: left;
 }
