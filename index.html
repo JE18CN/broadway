@@ -6,15 +6,15 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="pageheader">
-      <h1 class= "pagetitle titleformat">Broadway Design</h1>
-      <h3 class= "pagelink">Home</h3>
-      <h3 class= "pagelink">Process</h3>
-      <h3 class= "pagelink">Work</h3>
-      <h3 class= "pagelink">Team</h3>
-      <h3 class= "pagelink">Contact</h3>
+    <div id= "home" class="pageheader">
+        <h1 class= "pagetitle titleformat">Broadway Design</h1>
+        <h3><a href= "#home" class= "pagelink">Home</a></h3>
+        <h3><a href= "#process" class= "pagelink">Process</a></h3>
+        <h3><a href= "#work" class= "pagelink">Work</a></h3>
+        <h3><a href= "#team" class= "pagelink">Team</a></h3>
+        <h3><a href "#contact" class= "pagelink">Contact</a></h3>
     </div>
-    <div>
+    <div id= "process">
       <h2 class= "itemtitle">Our Process</h2>
       <p>
         <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/identify.svg"/>
@@ -36,19 +36,26 @@
       <h2 class= "designtitle titleformat">Designed in New York</h2>
     </div>
     <div>
-      <h3 class= "itemname">Portfolio</h3>
+      <h3 id= "work" class= "itemname">Portfolio</h3>
       <p class= "itemtext">Coming soon</p>
       <p></p>
-      <h3 class= "itemname">Team</h3>
+      <h3 id= "team" class= "itemname">Team</h3>
       <p class= "itemtext">We're hiring!</p>
       <p></p>
-      <h3 class= "itemname">Contact</h3>
+      <h3 id= "contact" class= "itemname">Contact</h3>
       <p class= "itemtext">Phone: (555)-555-5555</p>
       <p class= "itemtext">Email: test@example.com</p>
       <p class= "itemtext">Twitter: @test</p>
     </div>
     <div>
-      <p class= footer>&copy; Broadway 2016</p>
+      <p
+        class= footer>&copy; Broadway 2016
+        <a href="#home" class= "pagelink"> Home </a>
+        <a href="#process" class= "pagelink"> About </a>
+        <a href="#work" class= "pagelink"> Work </a>
+        <a href="#team" class= "pagelink"> Work </a>
+        <a href="#contact" class= "pagelink"> Contact </a>
+      </p>
     </div>
   </body>
 </html>
